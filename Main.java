@@ -5,17 +5,17 @@ class Main {
     Scanner scan = new Scanner(System.in);
 
 
-    System.out.println("What is your name?");
-    String name = scan.next();
-    System.out.println("What year is it?");
-    int currentYear = scan.nextInt();
+    System.out.println("What is your username?");
+    String username = scan.next();
+    System.out.println("What is your pin number?");
+    int pinNumber = scan.nextInt();
     System.out.println("What is your birth year?");
     int birthYear = scan.nextInt();
 
-    System.out.println(greeting(name));
+  
 
     int age = getAge(birthYear, currentYear);
-    System.out.println("Your age is " + age);
+    
   }
 
   //getAge method calculates age
