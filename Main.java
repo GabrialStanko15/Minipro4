@@ -1,34 +1,20 @@
-import java.util.Scanner;
-class Main {
-  public static void main(String[] args) 
-  {
-    Scanner scan = new Scanner(System.in);
-
-
-    System.out.println("What is your username?");
-    String username = scan.next();
-    System.out.println("What is your pin number?");
-    int pinNumber = scan.nextInt();
-    System.out.println("What is your birth year?");
-    int birthYear = scan.nextInt();
-
-  
-
-    int age = getAge(birthYear, currentYear);
+public static  main(String[] args) {
     
   }
 
-  //getAge method calculates age
-  static int getAge (int birthYear, int currentYear)
-  {
-  int age = currentYear - birthYear;
-  return age;
+public class Main {
+  static int additionMethod(int x) {
+    return 20 + x;
+
   }
 
-  //greeting method returns a personalized greeting
-  static String greeting(String name)
-  {
-    String hello = "Hello. Welcome back, " + name;
-    return hello;
-  }
+public class Main {
+  static int subtractionMethod(int y){
+  return 15-y;
+}
+
+System.out.println(additionMethod(8));
+    System.out.println(subtractionMethod(10));
+    // Outputs 28 (20 + 8)
+ }
 }
